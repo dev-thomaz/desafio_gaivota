@@ -1,0 +1,6 @@
+module Pods_gaivota_gaivotaTests {
+  umbrella header "Pods-gaivota-gaivotaTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
