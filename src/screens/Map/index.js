@@ -53,7 +53,7 @@ const Map = ({ navigation }) => {
         
         BackgroundTimer.start()
         const timer =   await  BackgroundTimer.runBackgroundTimer(() => { 
-            alert('virou')
+          
             Geolocation.getCurrentPosition(info => {
                 
               
