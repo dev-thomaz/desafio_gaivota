@@ -8,14 +8,30 @@
 
 /* Begin PBXBuildFile section */
 		00E356F31AD99517003FC87E /* gaivotaTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* gaivotaTests.m */; };
+		084A5F191582413D809D2EA6 /* Roboto-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CC0218D91B6C4FC88982EDA7 /* Roboto-MediumItalic.ttf */; };
+		0EB46364580A4070808E96EE /* Roboto-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DCBF48B168FF48B186336A51 /* Roboto-LightItalic.ttf */; };
+		1388956D23794F9295E3449C /* Roboto-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F5672AD7D4804AE1B222A404 /* Roboto-BoldItalic.ttf */; };
 		13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
+		192D35D077B04DE0B24518C4 /* Roboto-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 290D57AE81F244378B8046AD /* Roboto-Thin.ttf */; };
 		2D02E4BC1E0B4A80006451C7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		2D02E4BD1E0B4A84006451C7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		2D02E4BF1E0B4AB3006451C7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		2DCD954D1E0B4F2C00145EB5 /* gaivotaTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* gaivotaTests.m */; };
+		43A1801FDA1ECFE358FC6ED6 /* libPods-gaivota-gaivotaTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F9FC51DBF485F0128F23F98 /* libPods-gaivota-gaivotaTests.a */; };
+		5BFF0FFCA220449E9DCDE9BF /* Roboto-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BE7CB29610C54EB1B5A16987 /* Roboto-BlackItalic.ttf */; };
+		5E32363ECD8545EBABBD8F53 /* Roboto-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 62E336EEEFE8415883EBBF71 /* Roboto-Light.ttf */; };
+		6D66D56E58B1C879B8D82694 /* libPods-gaivota-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0CADCCABBE5453DC077EC216 /* libPods-gaivota-tvOS.a */; };
+		6FCC1038C00B4262BBE18DF2 /* Roboto-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9093BF3AAB1C414BB6297FFB /* Roboto-Italic.ttf */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
+		A0ED2B247D2C4E80A4309736 /* Roboto-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3FD67DED596A4441B60B4417 /* Roboto-Medium.ttf */; };
+		A860BE972C5441638C697125 /* Roboto-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D9C0846992AA4C58B462BD89 /* Roboto-Bold.ttf */; };
+		B67D4050508185A35153EA1F /* libPods-gaivota-tvOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B937D27E2DEFFB9185D471B /* libPods-gaivota-tvOSTests.a */; };
+		BEB4AC85E438100AD3E9A003 /* libPods-gaivota.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A84620B3F1545E7DCBD47C15 /* libPods-gaivota.a */; };
+		D850D71FD7724BBE94C80E91 /* Roboto-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DEB145DD8DDC4418BADE8F8D /* Roboto-Black.ttf */; };
+		F775FF6B739942F78FD33370 /* Roboto-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BA3F9046F50A45BD9648A88C /* Roboto-Regular.ttf */; };
+		F782D165A7AC45C5AC5BB06C /* Roboto-ThinItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 65CEDCDCB50E450083981815 /* Roboto-ThinItalic.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,17 +56,41 @@
 		00E356EE1AD99517003FC87E /* gaivotaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = gaivotaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		00E356F21AD99517003FC87E /* gaivotaTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = gaivotaTests.m; sourceTree = "<group>"; };
+		0A7E11A723B8468629386CAF /* Pods-gaivota-gaivotaTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-gaivota-gaivotaTests.release.xcconfig"; path = "Target Support Files/Pods-gaivota-gaivotaTests/Pods-gaivota-gaivotaTests.release.xcconfig"; sourceTree = "<group>"; };
+		0BE3EB945364D0A709E207F2 /* Pods-gaivota-gaivotaTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-gaivota-gaivotaTests.debug.xcconfig"; path = "Target Support Files/Pods-gaivota-gaivotaTests/Pods-gaivota-gaivotaTests.debug.xcconfig"; sourceTree = "<group>"; };
+		0CADCCABBE5453DC077EC216 /* libPods-gaivota-tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-gaivota-tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		13B07F961A680F5B00A75B9A /* gaivota.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = gaivota.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = gaivota/AppDelegate.h; sourceTree = "<group>"; };
 		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = gaivota/AppDelegate.m; sourceTree = "<group>"; };
 		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = gaivota/Images.xcassets; sourceTree = "<group>"; };
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = gaivota/Info.plist; sourceTree = "<group>"; };
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = gaivota/main.m; sourceTree = "<group>"; };
+		21A5B5B9155F314259707F56 /* Pods-gaivota-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-gaivota-tvOSTests.debug.xcconfig"; path = "Target Support Files/Pods-gaivota-tvOSTests/Pods-gaivota-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
+		290D57AE81F244378B8046AD /* Roboto-Thin.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Roboto-Thin.ttf"; path = "../assets/fonts/Roboto-Thin.ttf"; sourceTree = "<group>"; };
 		2D02E47B1E0B4A5D006451C7 /* gaivota-tvOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "gaivota-tvOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D02E4901E0B4A5D006451C7 /* gaivota-tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "gaivota-tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D3597D28223573EB7609E8D /* Pods-gaivota-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-gaivota-tvOS.debug.xcconfig"; path = "Target Support Files/Pods-gaivota-tvOS/Pods-gaivota-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
+		3FD67DED596A4441B60B4417 /* Roboto-Medium.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Roboto-Medium.ttf"; path = "../assets/fonts/Roboto-Medium.ttf"; sourceTree = "<group>"; };
+		5FBD787FA90FC141D7D207A0 /* Pods-gaivota-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-gaivota-tvOS.release.xcconfig"; path = "Target Support Files/Pods-gaivota-tvOS/Pods-gaivota-tvOS.release.xcconfig"; sourceTree = "<group>"; };
+		62E336EEEFE8415883EBBF71 /* Roboto-Light.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Roboto-Light.ttf"; path = "../assets/fonts/Roboto-Light.ttf"; sourceTree = "<group>"; };
+		65CEDCDCB50E450083981815 /* Roboto-ThinItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Roboto-ThinItalic.ttf"; path = "../assets/fonts/Roboto-ThinItalic.ttf"; sourceTree = "<group>"; };
+		6B937D27E2DEFFB9185D471B /* libPods-gaivota-tvOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-gaivota-tvOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = gaivota/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8EA7A36323E33A7398174B56 /* Pods-gaivota.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-gaivota.debug.xcconfig"; path = "Target Support Files/Pods-gaivota/Pods-gaivota.debug.xcconfig"; sourceTree = "<group>"; };
+		8F9FC51DBF485F0128F23F98 /* libPods-gaivota-gaivotaTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-gaivota-gaivotaTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9093BF3AAB1C414BB6297FFB /* Roboto-Italic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Roboto-Italic.ttf"; path = "../assets/fonts/Roboto-Italic.ttf"; sourceTree = "<group>"; };
+		A84620B3F1545E7DCBD47C15 /* libPods-gaivota.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-gaivota.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA3F9046F50A45BD9648A88C /* Roboto-Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Roboto-Regular.ttf"; path = "../assets/fonts/Roboto-Regular.ttf"; sourceTree = "<group>"; };
+		BE7CB29610C54EB1B5A16987 /* Roboto-BlackItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Roboto-BlackItalic.ttf"; path = "../assets/fonts/Roboto-BlackItalic.ttf"; sourceTree = "<group>"; };
+		CC0218D91B6C4FC88982EDA7 /* Roboto-MediumItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Roboto-MediumItalic.ttf"; path = "../assets/fonts/Roboto-MediumItalic.ttf"; sourceTree = "<group>"; };
+		CDF250BDBEA36F10ACCDE980 /* Pods-gaivota-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-gaivota-tvOSTests.release.xcconfig"; path = "Target Support Files/Pods-gaivota-tvOSTests/Pods-gaivota-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
+		D753085711203905ECBA5877 /* Pods-gaivota.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-gaivota.release.xcconfig"; path = "Target Support Files/Pods-gaivota/Pods-gaivota.release.xcconfig"; sourceTree = "<group>"; };
+		D9C0846992AA4C58B462BD89 /* Roboto-Bold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Roboto-Bold.ttf"; path = "../assets/fonts/Roboto-Bold.ttf"; sourceTree = "<group>"; };
+		DCBF48B168FF48B186336A51 /* Roboto-LightItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Roboto-LightItalic.ttf"; path = "../assets/fonts/Roboto-LightItalic.ttf"; sourceTree = "<group>"; };
+		DEB145DD8DDC4418BADE8F8D /* Roboto-Black.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Roboto-Black.ttf"; path = "../assets/fonts/Roboto-Black.ttf"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 		ED2971642150620600B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS12.0.sdk/System/Library/Frameworks/JavaScriptCore.framework; sourceTree = DEVELOPER_DIR; };
+		F5672AD7D4804AE1B222A404 /* Roboto-BoldItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Roboto-BoldItalic.ttf"; path = "../assets/fonts/Roboto-BoldItalic.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +98,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				43A1801FDA1ECFE358FC6ED6 /* libPods-gaivota-gaivotaTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +106,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BEB4AC85E438100AD3E9A003 /* libPods-gaivota.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,6 +114,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6D66D56E58B1C879B8D82694 /* libPods-gaivota-tvOS.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -79,6 +122,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B67D4050508185A35153EA1F /* libPods-gaivota-tvOSTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -121,6 +165,10 @@
 			children = (
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
 				ED2971642150620600B7C4FE /* JavaScriptCore.framework */,
+				A84620B3F1545E7DCBD47C15 /* libPods-gaivota.a */,
+				8F9FC51DBF485F0128F23F98 /* libPods-gaivota-gaivotaTests.a */,
+				0CADCCABBE5453DC077EC216 /* libPods-gaivota-tvOS.a */,
+				6B937D27E2DEFFB9185D471B /* libPods-gaivota-tvOSTests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -140,6 +188,8 @@
 				00E356EF1AD99517003FC87E /* gaivotaTests */,
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
+				D041656402AF27786A0383F1 /* Pods */,
+				878EB43E273242B696C5FC72 /* Resources */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -157,6 +207,40 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		878EB43E273242B696C5FC72 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				DEB145DD8DDC4418BADE8F8D /* Roboto-Black.ttf */,
+				BE7CB29610C54EB1B5A16987 /* Roboto-BlackItalic.ttf */,
+				D9C0846992AA4C58B462BD89 /* Roboto-Bold.ttf */,
+				F5672AD7D4804AE1B222A404 /* Roboto-BoldItalic.ttf */,
+				9093BF3AAB1C414BB6297FFB /* Roboto-Italic.ttf */,
+				62E336EEEFE8415883EBBF71 /* Roboto-Light.ttf */,
+				DCBF48B168FF48B186336A51 /* Roboto-LightItalic.ttf */,
+				3FD67DED596A4441B60B4417 /* Roboto-Medium.ttf */,
+				CC0218D91B6C4FC88982EDA7 /* Roboto-MediumItalic.ttf */,
+				BA3F9046F50A45BD9648A88C /* Roboto-Regular.ttf */,
+				290D57AE81F244378B8046AD /* Roboto-Thin.ttf */,
+				65CEDCDCB50E450083981815 /* Roboto-ThinItalic.ttf */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		D041656402AF27786A0383F1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8EA7A36323E33A7398174B56 /* Pods-gaivota.debug.xcconfig */,
+				D753085711203905ECBA5877 /* Pods-gaivota.release.xcconfig */,
+				0BE3EB945364D0A709E207F2 /* Pods-gaivota-gaivotaTests.debug.xcconfig */,
+				0A7E11A723B8468629386CAF /* Pods-gaivota-gaivotaTests.release.xcconfig */,
+				3D3597D28223573EB7609E8D /* Pods-gaivota-tvOS.debug.xcconfig */,
+				5FBD787FA90FC141D7D207A0 /* Pods-gaivota-tvOS.release.xcconfig */,
+				21A5B5B9155F314259707F56 /* Pods-gaivota-tvOSTests.debug.xcconfig */,
+				CDF250BDBEA36F10ACCDE980 /* Pods-gaivota-tvOSTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -164,9 +248,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "gaivotaTests" */;
 			buildPhases = (
+				8CCEFA257627AA6E254D8B8F /* [CP] Check Pods Manifest.lock */,
 				00E356EA1AD99517003FC87E /* Sources */,
 				00E356EB1AD99517003FC87E /* Frameworks */,
 				00E356EC1AD99517003FC87E /* Resources */,
+				9C490B00D77EA17191C6F4D5 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -182,11 +268,13 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "gaivota" */;
 			buildPhases = (
+				640971EB40B9F00445F6C488 /* [CP] Check Pods Manifest.lock */,
 				FD10A7F022414F080027D42C /* Start Packager */,
 				13B07F871A680F5B00A75B9A /* Sources */,
 				13B07F8C1A680F5B00A75B9A /* Frameworks */,
 				13B07F8E1A680F5B00A75B9A /* Resources */,
 				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
+				AC4797D7CF21025A50668075 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -201,6 +289,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2D02E4BA1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "gaivota-tvOS" */;
 			buildPhases = (
+				5ED320103AB39A685C6F6055 /* [CP] Check Pods Manifest.lock */,
 				FD10A7F122414F3F0027D42C /* Start Packager */,
 				2D02E4771E0B4A5D006451C7 /* Sources */,
 				2D02E4781E0B4A5D006451C7 /* Frameworks */,
@@ -220,6 +309,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2D02E4BB1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "gaivota-tvOSTests" */;
 			buildPhases = (
+				048F415529E4091EDDFD351A /* [CP] Check Pods Manifest.lock */,
 				2D02E48C1E0B4A5D006451C7 /* Sources */,
 				2D02E48D1E0B4A5D006451C7 /* Frameworks */,
 				2D02E48E1E0B4A5D006451C7 /* Resources */,
@@ -247,6 +337,7 @@
 						TestTargetID = 13B07F861A680F5B00A75B9A;
 					};
 					13B07F861A680F5B00A75B9A = {
+						DevelopmentTeam = 6F7H7S92RH;
 						LastSwiftMigration = 1120;
 					};
 					2D02E47A1E0B4A5D006451C7 = {
@@ -295,6 +386,18 @@
 			files = (
 				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
+				D850D71FD7724BBE94C80E91 /* Roboto-Black.ttf in Resources */,
+				5BFF0FFCA220449E9DCDE9BF /* Roboto-BlackItalic.ttf in Resources */,
+				A860BE972C5441638C697125 /* Roboto-Bold.ttf in Resources */,
+				1388956D23794F9295E3449C /* Roboto-BoldItalic.ttf in Resources */,
+				6FCC1038C00B4262BBE18DF2 /* Roboto-Italic.ttf in Resources */,
+				5E32363ECD8545EBABBD8F53 /* Roboto-Light.ttf in Resources */,
+				0EB46364580A4070808E96EE /* Roboto-LightItalic.ttf in Resources */,
+				A0ED2B247D2C4E80A4309736 /* Roboto-Medium.ttf in Resources */,
+				084A5F191582413D809D2EA6 /* Roboto-MediumItalic.ttf in Resources */,
+				F775FF6B739942F78FD33370 /* Roboto-Regular.ttf in Resources */,
+				192D35D077B04DE0B24518C4 /* Roboto-Thin.ttf in Resources */,
+				F782D165A7AC45C5AC5BB06C /* Roboto-ThinItalic.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -330,6 +433,28 @@
 			shellPath = /bin/sh;
 			shellScript = "export NODE_BINARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh";
 		};
+		048F415529E4091EDDFD351A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-gaivota-tvOSTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
 		2D02E4CB1E0B4B27006451C7 /* Bundle React Native Code And Images */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -343,6 +468,112 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "export NODE_BINARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh";
+		};
+		5ED320103AB39A685C6F6055 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-gaivota-tvOS-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		640971EB40B9F00445F6C488 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-gaivota-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8CCEFA257627AA6E254D8B8F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-gaivota-gaivotaTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9C490B00D77EA17191C6F4D5 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-gaivota-gaivotaTests/Pods-gaivota-gaivotaTests-resources.sh",
+				"${PODS_ROOT}/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Resources/GoogleMaps.bundle",
+				"${PODS_CONFIGURATION_BUILD_DIR}/React-Core/AccessibilityResources.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleMaps.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/AccessibilityResources.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-gaivota-gaivotaTests/Pods-gaivota-gaivotaTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AC4797D7CF21025A50668075 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-gaivota/Pods-gaivota-resources.sh",
+				"${PODS_ROOT}/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Resources/GoogleMaps.bundle",
+				"${PODS_CONFIGURATION_BUILD_DIR}/React-Core/AccessibilityResources.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleMaps.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/AccessibilityResources.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-gaivota/Pods-gaivota-resources.sh\"\n";
+			showEnvVarsInLog = 0;
 		};
 		FD10A7F022414F080027D42C /* Start Packager */ = {
 			isa = PBXShellScriptBuildPhase;
@@ -437,6 +668,7 @@
 /* Begin XCBuildConfiguration section */
 		00E356F61AD99517003FC87E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0BE3EB945364D0A709E207F2 /* Pods-gaivota-gaivotaTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -459,6 +691,7 @@
 		};
 		00E356F71AD99517003FC87E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0A7E11A723B8468629386CAF /* Pods-gaivota-gaivotaTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COPY_PHASE_STRIP = NO;
@@ -478,10 +711,12 @@
 		};
 		13B07F941A680F5B00A75B9A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8EA7A36323E33A7398174B56 /* Pods-gaivota.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6F7H7S92RH;
 				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = gaivota/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -500,10 +735,12 @@
 		};
 		13B07F951A680F5B00A75B9A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D753085711203905ECBA5877 /* Pods-gaivota.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6F7H7S92RH;
 				INFOPLIST_FILE = gaivota/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
@@ -520,6 +757,7 @@
 		};
 		2D02E4971E0B4A5E006451C7 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3D3597D28223573EB7609E8D /* Pods-gaivota-tvOS.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -547,6 +785,7 @@
 		};
 		2D02E4981E0B4A5E006451C7 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5FBD787FA90FC141D7D207A0 /* Pods-gaivota-tvOS.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -574,6 +813,7 @@
 		};
 		2D02E4991E0B4A5E006451C7 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 21A5B5B9155F314259707F56 /* Pods-gaivota-tvOSTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CLANG_ANALYZER_NONNULL = YES;
@@ -600,6 +840,7 @@
 		};
 		2D02E49A1E0B4A5E006451C7 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CDF250BDBEA36F10ACCDE980 /* Pods-gaivota-tvOSTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CLANG_ANALYZER_NONNULL = YES;
